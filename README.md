@@ -12,12 +12,10 @@ Unlike my professional case studies, the scenarios here are intentionally design
 
 ## 🚧 Journey in Progress
 
-The repository will evolve progressively as each project reaches publication quality.
-
 | Stage | Technology / Practice | Status |
 |---|---|---|
 | ☁️ | AWS Fundamentals | ✅ Foundation completed |
-| 🐧 | Linux Administration | 🚧 Project in progress |
+| 🐧 | Linux Administration | ✅ Project 001 completed |
 | 🌿 | Git & GitHub | 🔄 Continuous practice |
 | 🐳 | Docker & Containers | 🔒 Next stage |
 | 🏗️ | Terraform / Infrastructure as Code | 🔒 Planned |
@@ -26,35 +24,33 @@ The repository will evolve progressively as each project reaches publication qua
 | 🔵 | Azure | 🔒 Future expansion |
 | 🛠️ | Platform Engineering / SRE | 🔒 Long-term evolution |
 
-The order can evolve as projects begin to integrate multiple technologies into the same architecture.
-
 ---
 
 ## 🐧 Project 001 — Linux Server: Provisioning & Administration
 
-**Status: 🚧 In progress**
+**Status: ✅ Completed**
 
-The first project starts at the foundation: administering a Linux server from a blank virtual machine.
+The first project starts at the foundation: administering a Linux server from a blank virtual machine and taking it to an operational, testable and documented state.
 
-The scenario covers the lifecycle of preparing a server for future applications and Cloud/DevOps workloads, including:
+The project covers:
 
-- 🖥️ Linux Server provisioning in a virtual machine;
-- 👥 users, groups and privilege separation;
-- 🔐 ownership and filesystem permissions;
-- 📦 package management;
-- 🌐 networking, interfaces and listening ports;
-- 🧩 services and processes with `systemd`;
-- 🌍 Nginx web service;
-- 🔑 remote administration with SSH;
-- 📜 system and application logs;
-- 🤖 Bash and basic operational automation;
-- ⏱️ scheduled tasks;
-- 💥 controlled failure simulation;
-- 🔎 troubleshooting from symptom to validation.
+- Linux Server provisioning in VMware;
+- NAT networking and remote administration with SSH/PuTTY;
+- users, groups, ownership and filesystem permissions;
+- package management with APT;
+- Nginx installation and Web publishing;
+- services and processes with `systemd`;
+- system, SSH and Nginx logs;
+- process signals and controlled termination;
+- environment variables;
+- Bash health-check automation;
+- scheduled execution with `cron`;
+- controlled Nginx failure, troubleshooting and recovery;
+- final technical review and validation.
 
-A public progress checklist is available in [Issue #1 — Project 001](../../issues/1).
+📘 **[Open the complete Project 001 documentation](projects/001-linux-server/README.md)**
 
-The complete project documentation will be added to the repository after the technical review and final evidence curation.
+The public progress checklist is available in [Issue #1 — Project 001](../../issues/1).
 
 ---
 
@@ -78,7 +74,7 @@ The complete project documentation will be added to the repository after the tec
 🛠️  Platform Engineering / SRE
 ```
 
-The goal is not to fill a README with technology logos. Each tool should eventually appear here because it was **used, understood and connected to an engineering problem**.
+The goal is not to fill a README with technology logos. Each tool should appear here because it was **used, understood and connected to an engineering problem**.
 
 ---
 
@@ -97,8 +93,6 @@ Every finished project should demonstrate more than a list of commands. The docu
 ---
 
 ## 🔗 Professional Experience vs. Hands-on Projects
-
-This repository has a deliberately different purpose from my professional portfolio.
 
 **`cloud-journey`** → authorial labs, simulations and hands-on Cloud/DevOps/Platform projects.  
 **`professional-case-studies`** → anonymized case studies derived from real professional experience with critical systems, requirements engineering, Oracle SQL, production incidents and system modernization.
