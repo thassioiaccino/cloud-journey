@@ -99,6 +99,16 @@ Persistence was confirmed in a new SSH session.
 
 ---
 
+## 📘 Command runbook
+
+The complete command trail for the project is published separately as a flow-oriented runbook instead of a raw terminal dump.
+
+It includes host discovery, package management, Nginx, networking, SSH, users/groups, permissions, logs, troubleshooting, processes, environment variables, Bash, cron and final validation.
+
+See [`COMMANDS.md`](COMMANDS.md).
+
+---
+
 ## 🤖 Bash health check
 
 A simple operational health-check script was created at:
